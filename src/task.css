@@ -1,0 +1,17 @@
+.card {
+    background-color: #202020;
+    color: aliceblue;
+    padding: 20px
+}
+
+.title {
+    font-weight: lighter ;
+}
+
+.textTrue {
+    color: aqua;
+}
+
+.textFalse {
+    color: rgb(255, 0, 0);
+}
