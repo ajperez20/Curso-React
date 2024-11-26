@@ -9,8 +9,21 @@ import { Posts } from "./Posts";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //* Renderizamos el componente Greeting dentro de una etiqueta html
+
+const users = [
+  {
+    id: 1,
+    name: 'Arturo',
+    image: 'https://robohash.org/user1' 
+  },
+  {
+    id: 2,
+    name: 'Angel',
+    image: 'https://robohash.org/user2' 
+  }
+]
 root.render(
   <>
-    <Posts/>
+    <Posts users = {users}/>
   </>
 );
