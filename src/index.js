@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Posts } from "./Posts";
+import { Counter } from "./Counter";
 
 /*
  * Esta función devuelve el elemento root del Dom para el manejo del mismo
@@ -10,20 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 //* Renderizamos el componente Greeting dentro de una etiqueta html
 
-const users = [
-  {
-    id: 1,
-    name: 'Arturo',
-    image: 'https://robohash.org/user1' 
-  },
-  {
-    id: 2,
-    name: 'Angel',
-    image: 'https://robohash.org/user2' 
-  }
-]
 root.render(
   <>
-    <Posts users = {users}/>
+    <Counter />
   </>
 );
